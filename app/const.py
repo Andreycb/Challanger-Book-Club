@@ -1,6 +1,7 @@
 from log import logger
 from selenium import webdriver
 from settings import CHROME_PATH, USE_CHROME_HEADLESS
+
 class chrome_headless():
     def __enter__(self):
         logger.info('Opening browser')

@@ -1,8 +1,5 @@
 import click
-from time import sleep
 from log import logger
-from parsel import Selector
-from selenium import webdriver
 from const import chrome_headless
 from selenium.common.exceptions import NoSuchElementException
 from settings import ROOT_PROJECT
